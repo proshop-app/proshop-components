@@ -90,4 +90,4 @@
         </v-card-actions>
     </v-card>
 </template>
-<style lang="scss" src="ProductCard.scss" scoped />
+<style lang="scss" src="./ProductCard.scss" scoped />
