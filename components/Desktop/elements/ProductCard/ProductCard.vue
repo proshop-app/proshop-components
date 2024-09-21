@@ -36,7 +36,7 @@
         <nuxt-link
             :to="route"
             class="product-card__link pa-2"
-            :target=""
+            :target="linkTarget"
             style="display: block; height: 100%"
         >
             <v-card-title class="product-card__header">
