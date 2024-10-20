@@ -1,6 +1,12 @@
 <script lang="ts" setup>
-    const { block = false } = defineProps<{
+    const {
+        block = false,
+        btnWidth = 40,
+        btnHeight = 40,
+    } = defineProps<{
         block?: boolean
+        btnWidth?: number | string
+        btnHeight?: number | string
     }>()
 
     defineEmits<{
@@ -17,6 +23,8 @@
 <template>
     <div :class="classes">
         <v-button
+            :width="btnWidth"
+            :height="btnHeight"
             color="secondary app-border-radius"
             @click="$emit('minus')"
         >
@@ -29,6 +37,8 @@
             <slot></slot>
         </div>
         <v-button
+            :width="btnWidth"
+            :height="btnHeight"
             color="primary app-border-radius"
             @click="$emit('plus')"
         >
