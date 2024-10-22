@@ -3,7 +3,7 @@
 
   &__header {
     overflow: hidden;
-    height: 180px;
+    height: 300px;
     padding: 0;
     justify-content: center;
     position: relative;
@@ -37,7 +37,7 @@
   }
 
   &__image {
-    max-height: 150px;
+    max-height: 250px;
     object-fit: contain;
   }
 
