@@ -1,11 +1,12 @@
 <script lang="ts" setup>
     import PlusMinusButtons from '~layer/components/Desktop/elements/PlusMinusButtons/PlusMinusButtons.vue'
-    import type { IProduct } from '@proshop-app/types'
+    import type { ICurrency, IProduct } from '@proshop-app/types'
 
     defineProps<{
         product: IProduct
         route: any
         quantity?: number
+        currency?: ICurrency
         isFavorite: boolean
         linkTarget: string
     }>()
@@ -53,7 +54,7 @@
             <v-card-content class="product-card__text grey--text text--darken-2">
                 <div class="product-card__price">
                     <span class="product-card__cost">{{ product.price }}</span>
-                    <span class="product-card__currency">{{ product.currency!.symbol }}</span>
+                    <span class="product-card__currency">{{ currency!.symbol }}</span>
                 </div>
                 <div class="product-card__info">
                     <span
