@@ -44,7 +44,7 @@
                 <div class="product-card__image-wrapper">
                     <v-img
                         v-if="product.image || product.assets"
-                        :src="product.image!"
+                        :src="`/${product.image!}`"
                         :title="product.name"
                         :alt="product.name"
                         class="product-card__image app-border-radius"
