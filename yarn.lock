@@ -1225,30 +1225,43 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.28.tgz#d45e01c4a56f143ee69c54dd6b12eade9e270a73"
   integrity sha512-8LduaNlMZGwdZ6qWrKlfa+2M4gahzFkprZiAt2TF8uS0qQgBizKXpXURqvTJ4WtmupWxaLqjRb2UCTe72mu+Aw==
 
-"@proshop-app/composables@^0.0.69":
-  version "0.0.69"
-  resolved "https://npm.pkg.github.com/download/@proshop-app/composables/0.0.69/c1e43a1a13f84c61928eaa051b7da919e83c4ef2#c1e43a1a13f84c61928eaa051b7da919e83c4ef2"
-  integrity sha512-bPLrtQ0+xHBIRIYwizfsf9sMTAKKxmDs1rLzDVSigIoSdrmqwHyCfRpydT2PL/7XmgemsjlnAuEiyEAWvLVAug==
+"@proshop-app/composables@^0.0.152":
+  version "0.0.152"
+  resolved "https://npm.pkg.github.com/download/@proshop-app/composables/0.0.152/77451e4f8dbb4a26cde9eed5ce8abb6c75e42d8b#77451e4f8dbb4a26cde9eed5ce8abb6c75e42d8b"
+  integrity sha512-GES534TWzCelgbq7gYZ8C7odBSYeVUDXRyzZs9oA0U4w6JPUAtTVKiUI/9aITH53L/rBrheGDmTYQeOw0JcIwg==
   dependencies:
-    h3 "^1.12.0"
+    consola "^3.2.3"
+    ofetch "^1.4.1"
     vue-demi "*"
 
-"@proshop-app/helpers@^0.0.69":
-  version "0.0.69"
-  resolved "https://npm.pkg.github.com/download/@proshop-app/helpers/0.0.69/19c68efb5b0b31f6f05d520d5e1e578ef9e67664#19c68efb5b0b31f6f05d520d5e1e578ef9e67664"
-  integrity sha512-LvKiqHbZhqwr9cL3qzbtJMRsigTVVsR+M6uQs7yRGgqO0O/7F8QkN+YNF1xbXBOpj1rmWrReaXjjfyAD0f0n4g==
+"@proshop-app/constants@^0.0.152":
+  version "0.0.152"
+  resolved "https://npm.pkg.github.com/download/@proshop-app/constants/0.0.152/13bd8f8f99fab85a286fcd014ed9ea38a31fc132#13bd8f8f99fab85a286fcd014ed9ea38a31fc132"
+  integrity sha512-tmIFBBLnvP+giQgXajif+yHBFYrrdnUQfjOmM4FMHKGygxyMMI/NcIPT5rCZGUn1E3nKHJVeBxE0lS8vANBjPw==
 
-"@proshop-app/sdk@^0.0.69":
-  version "0.0.69"
-  resolved "https://npm.pkg.github.com/download/@proshop-app/sdk/0.0.69/0b632194f5aa3094a92a2740b82c82d8c935e876#0b632194f5aa3094a92a2740b82c82d8c935e876"
-  integrity sha512-x1lxBEr3X+AnEss7YEzF9uPiq5Cv90uIRqoRe5UF4a5iUqOzGGGTm/i1OqTEO3ce7dBfStCT5+1JMhlV+3QvdQ==
+"@proshop-app/enums@^0.0.152":
+  version "0.0.152"
+  resolved "https://npm.pkg.github.com/download/@proshop-app/enums/0.0.152/32039a1f87d11b9d9f4de6540e4b25d728f1b40b#32039a1f87d11b9d9f4de6540e4b25d728f1b40b"
+  integrity sha512-nChDjI1XM1ZIOFJJeYamYnDEp2HOS6OyCB6f/C9T1p931tfEfweU01xCCIey3ArI+SsENmWiL0nlq0ryRYCC5Q==
+
+"@proshop-app/helpers@^0.0.152":
+  version "0.0.152"
+  resolved "https://npm.pkg.github.com/download/@proshop-app/helpers/0.0.152/1ae6774743097cd1e31461861bc7f799333f7f61#1ae6774743097cd1e31461861bc7f799333f7f61"
+  integrity sha512-OArQfdXc0lZSL2tXJlC7U1cw3RpYd3Ahvvzy181Arbe80CGici9bDTzs/VFucpiLO7afYNmgbbXT5I4VqMOd3A==
+
+"@proshop-app/sdk@^0.0.152":
+  version "0.0.152"
+  resolved "https://npm.pkg.github.com/download/@proshop-app/sdk/0.0.152/946c191983c3521c911fb62cce828e9380698b41#946c191983c3521c911fb62cce828e9380698b41"
+  integrity sha512-a2EDkRjgK5nyVs7HOx+ar6qUxrLwpxfYRJmBADdoRmAxxg/kKc7De7KXugLK+ixxaH86NRZVttCZ3wC0goo39A==
   dependencies:
-    "@proshop-app/composables" "^0.0.69"
+    "@proshop-app/composables" "^0.0.152"
+    "@proshop-app/constants" "^0.0.152"
+    "@proshop-app/enums" "^0.0.152"
 
-"@proshop-app/types@^0.0.69":
-  version "0.0.69"
-  resolved "https://npm.pkg.github.com/download/@proshop-app/types/0.0.69/b949aa18d2514d7ae54c1543d8c9dd50c7ae8854#b949aa18d2514d7ae54c1543d8c9dd50c7ae8854"
-  integrity sha512-2LLr51ifskbX5NFTonE0TFro8l58fSpfcX1TcjoS/iS1zlKr29Op9Nri69OX1lY971WemwTsH/LNuybB8wue4w==
+"@proshop-app/types@^0.0.152":
+  version "0.0.152"
+  resolved "https://npm.pkg.github.com/download/@proshop-app/types/0.0.152/a56b18767cb60fb50ebbe4c80336c1cdc3a5da21#a56b18767cb60fb50ebbe4c80336c1cdc3a5da21"
+  integrity sha512-zoSoLobgbkyhlMIByTjxKZ28RgmVMXNowJZFmziWVhrDZZnOehbFL7XeA4iuhC2YpXee+sJ9GcB2BvNcRs3fMg==
 
 "@redocly/ajv@^8.11.2":
   version "8.11.2"
